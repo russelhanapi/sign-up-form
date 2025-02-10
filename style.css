@@ -104,6 +104,10 @@ p {
   border-radius: 3px;
 }
 
+.form__input-container input:invalid {
+  border: 1px solid red;
+}
+
 .btn {
   font-size: 16px;
   font-weight: 600;
